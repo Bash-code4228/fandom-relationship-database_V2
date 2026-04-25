@@ -4,10 +4,10 @@ let editingId = null;
 let deletingId = null;
 let currentFilter = 'all';
 let currentSearch = '';
-let uploadMethod = 'file'; // 'file' or 'url'
+let uploadMethod = 'file'; 
 let selectedFile = null;
 let selectedImageUrl = '';
-let currentFandomFilter = ''; // New variable for fandom filtering
+let currentFandomFilter = ''; 
 
 // Add this after your existing variable declarations
 const PLACEHOLDER_IMAGE = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400' viewBox='0 0 400 400'%3E%3Crect width='400' height='400' fill='%23f5f5f5'/%3E%3Ctext x='200' y='200' text-anchor='middle' dy='.3em' fill='%23999' font-family='Arial' font-size='20'%3E📷 No Image%3C/text%3E%3C/svg%3E";
