@@ -41,12 +41,11 @@ document.addEventListener('DOMContentLoaded', async () => {
     
     // Search functionality
     if (searchInput) {
-        searchInput.addEventListener('input', (e) => {
-            currentSearch = e.target.value.toLowerCase();
-            applyFilters();
-        });
-    }
-});
+    searchInput.addEventListener('input', (e) => {
+        currentSearch = e.target.value.toLowerCase();
+        renderPairings(getFilteredPairings());  // Call this directly instead
+    });
+}
 
 // Render Fandom Sidebar
 function renderFandoms() {
@@ -91,19 +90,16 @@ function renderFandoms() {
 function filterByFandom(fandom) {
     currentFandomFilter = fandom;
     renderFandoms();
-    applyFilters();
+    renderPairings(getFilteredPairings());  // Use this instead of applyFilters()
     
-    // Update search input to show filter
-    if (searchInput && fandom) {
-        searchInput.value = fandom;
-        currentSearch = fandom.toLowerCase();
-    } else if (searchInput && !fandom) {
+    // Clear search input when filtering by fandom
+    if (searchInput) {
         searchInput.value = '';
         currentSearch = '';
     }
 }
-
-// Get filtered pairings with fandom filter
+    
+// Get filtered pairings with fandom filter and search
 function getFilteredPairings() {
     let filtered = [...pairings];
     
@@ -118,7 +114,7 @@ function getFilteredPairings() {
     }
     
     // Apply search filter
-    if (currentSearch) {
+    if (currentSearch && currentSearch !== '') {
         filtered = filtered.filter(p => 
             (p.name && p.name.toLowerCase().includes(currentSearch)) ||
             (p.characters && p.characters.toLowerCase().includes(currentSearch)) ||
