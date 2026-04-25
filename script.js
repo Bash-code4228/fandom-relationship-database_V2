@@ -44,8 +44,9 @@ document.addEventListener('DOMContentLoaded', async () => {
     searchInput.addEventListener('input', (e) => {
         currentSearch = e.target.value.toLowerCase();
         renderPairings(getFilteredPairings());  // Call this directly instead
-    });
-}
+        });
+    }
+});
 
 // Render Fandom Sidebar
 function renderFandoms() {
