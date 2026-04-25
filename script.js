@@ -52,15 +52,33 @@ document.addEventListener('DOMContentLoaded', async () => {
 function renderFandoms() {
     if (!fandomList) return;
     
-    // Get unique fandoms from pairings
-    const fandoms = [...new Set(pairings.map(p => p.fandom))].filter(f => f && f.trim() !== '').sort();
+    // Collect all individual fandoms (splitting comma-separated values)
+    const allFandoms = new Set();
+    
+    pairings.forEach(p => {
+        if (p.fandom && p.fandom.trim() !== '') {
+            // Split by comma and trim whitespace
+            const fandoms = p.fandom.split(',').map(f => f.trim());
+            fandoms.forEach(f => {
+                if (f) allFandoms.add(f);
+            });
+        }
+    });
+    
+    const sortedFandoms = [...allFandoms].sort();
     
     let html = `<li class="fandom-item ${currentFandomFilter === '' ? 'active' : ''}" onclick="filterByFandom('')">
         <i class="fas fa-globe"></i> All Fandoms (${pairings.length})
     </li>`;
     
-    fandoms.forEach(f => {
-        const count = pairings.filter(p => p.fandom === f).length;
+    sortedFandoms.forEach(f => {
+        // Count ships that have this fandom in their comma-separated list
+        const count = pairings.filter(p => {
+            if (!p.fandom) return false;
+            const fandoms = p.fandom.split(',').map(fd => fd.trim());
+            return fandoms.includes(f);
+        }).length;
+        
         html += `<li class="fandom-item ${currentFandomFilter === f ? 'active' : ''}" onclick="filterByFandom('${escapeString(f)}')">
             <i class="fas fa-tag"></i> ${escapeHtml(f)} (${count})
         </li>`;
@@ -91,7 +109,12 @@ function getFilteredPairings() {
     
     // Apply fandom filter
     if (currentFandomFilter && currentFandomFilter !== '') {
-        filtered = filtered.filter(p => p.fandom === currentFandomFilter);
+        filtered = filtered.filter(p => {
+            if (!p.fandom) return false;
+            // Split the ship's fandom field and check if it includes the selected filter
+            const shipFandoms = p.fandom.split(',').map(f => f.trim());
+            return shipFandoms.includes(currentFandomFilter);
+        });
     }
     
     // Apply search filter
@@ -113,10 +136,6 @@ function getFilteredPairings() {
     });
 
     return filtered;
-}
-
-function applyFilters() {
-    renderPairings(getFilteredPairings());
 }
 
 // Load from GitHub/WordPress JSON file
