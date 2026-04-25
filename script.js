@@ -90,9 +90,8 @@ function renderFandoms() {
 function filterByFandom(fandom) {
     currentFandomFilter = fandom;
     renderFandoms();
-    renderPairings(getFilteredPairings());  // Use this instead of applyFilters()
+    renderPairings(getFilteredPairings());
     
-    // Clear search input when filtering by fandom
     if (searchInput) {
         searchInput.value = '';
         currentSearch = '';
