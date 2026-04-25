@@ -1,5 +1,23 @@
 [
   {
+    "id": 1777110768086,
+    "name": "Kindall",
+    "characters": "Kick Buttowski/Kendall Perkins",
+    "fandom": "Kick Buttowski",
+    "universe": "From universe",
+    "status": "Fanon",
+    "relationship": "Romantic",
+    "yearStarted": "",
+    "media": "Animation Series",
+    "dynamic": "Opposing Energies",
+    "trope": "Enemies to Lovers",
+    "notes": "",
+    "favorite": false,
+    "image": null,
+    "artist": "",
+    "addedDate": "2026-04-25"
+  },
+  {
     "id": 1774745344149,
     "name": "Roadrat",
     "characters": "Roadhog/Junkrat",
@@ -13,7 +31,9 @@
     "trope": "Friends to Lovers",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/roadrat.jpg"
+    ],
     "artist": "",
     "addedDate": "2026-03-29"
   },
@@ -31,7 +51,9 @@
     "trope": "Enemies to Lovers",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/ramyatta.jpg"
+    ],
     "artist": "",
     "addedDate": "2026-03-29"
   },
@@ -49,7 +71,9 @@
     "trope": "Friends to Lovers",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/anahardt.jpg"
+    ],
     "artist": "",
     "addedDate": "2026-03-29"
   },
@@ -67,7 +91,9 @@
     "trope": "Found Family",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/the_lane_family.jpg"
+    ],
     "artist": "",
     "addedDate": "2026-03-29"
   },
@@ -85,7 +111,9 @@
     "trope": "Mutual Pining",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/silcovander.jpg"
+    ],
     "artist": "",
     "addedDate": "2026-03-26"
   },
@@ -103,7 +131,9 @@
     "trope": "Friends to Lovers",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/timebomb.jpg"
+    ],
     "artist": "",
     "addedDate": "2026-03-26"
   },
@@ -121,7 +151,9 @@
     "trope": "Enemies to Lovers",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/okiringo.jpg"
+    ],
     "artist": "",
     "addedDate": "2026-03-26"
   },
@@ -139,7 +171,9 @@
     "trope": "Enemies to Lovers",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/katorro.jpg"
+    ],
     "addedDate": "2026-02-28"
   },
   {
@@ -156,7 +190,9 @@
     "trope": "Mutual Pining (Oblivious)",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/darcy.jpg"
+    ],
     "addedDate": "2026-02-28"
   },
   {
@@ -173,7 +209,9 @@
     "trope": "Mutual Pining",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/deannie.jpg"
+    ],
     "addedDate": "2026-02-28"
   },
   {
@@ -190,7 +228,9 @@
     "trope": "Found Family",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/mchughes.jpg"
+    ],
     "addedDate": "2026-02-28"
   },
   {
@@ -207,7 +247,9 @@
     "trope": "Mutual Pining",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/gradford.jpg"
+    ],
     "addedDate": "2026-02-28"
   },
   {
@@ -224,7 +266,9 @@
     "trope": "NA",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/shay_siblings.jpg"
+    ],
     "addedDate": "2026-02-28"
   },
   {
@@ -241,7 +285,9 @@
     "trope": "NA",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/seddie.jpg"
+    ],
     "addedDate": "2026-02-28"
   },
   {
@@ -258,7 +304,9 @@
     "trope": "Friends to Lovers",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/creddie.jpg"
+    ],
     "addedDate": "2026-02-28"
   },
   {
@@ -275,7 +323,9 @@
     "trope": "Friends to Lovers",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/leopika.jpg"
+    ],
     "addedDate": "2026-02-28"
   },
   {
@@ -292,7 +342,9 @@
     "trope": "Found Family",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/killugon.jpg"
+    ],
     "addedDate": "2026-02-28"
   },
   {
@@ -309,7 +361,9 @@
     "trope": "Friends to Lovers",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/huddson.jpg"
+    ],
     "addedDate": "2026-02-28"
   },
   {
@@ -326,7 +380,9 @@
     "trope": "NA",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/hilson.jpg"
+    ],
     "addedDate": "2026-02-28"
   },
   {
@@ -343,7 +399,9 @@
     "trope": "Dislike to Love",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/huddy.jpg"
+    ],
     "addedDate": "2026-02-28"
   },
   {
@@ -360,7 +418,9 @@
     "trope": "Mutual Pining",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/zestmilla.jpg"
+    ],
     "addedDate": "2026-02-28"
   },
   {
@@ -377,7 +437,9 @@
     "trope": "Dislike to Love",
     "notes": "",
     "favorite": true,
-    "image": null,
+    "image": [
+      "images/huskerdust.jpg"
+    ],
     "addedDate": "2026-02-28"
   },
   {
@@ -394,7 +456,9 @@
     "trope": "Unrequited to Requited Love",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/radiostaticapple.jpg"
+    ],
     "addedDate": "2026-02-28"
   },
   {
@@ -411,7 +475,9 @@
     "trope": "Dislike to Love",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/radiostaticmoth.jpg"
+    ],
     "addedDate": "2026-02-28"
   },
   {
@@ -428,7 +494,9 @@
     "trope": "Dislike to Love",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/radioapple.jpg"
+    ],
     "addedDate": "2026-02-28"
   },
   {
@@ -445,7 +513,9 @@
     "trope": "Enemies to Lovers",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/radiostatic.jpg"
+    ],
     "addedDate": "2026-02-28"
   },
   {
@@ -462,7 +532,9 @@
     "trope": "NA",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/applestar.jpg"
+    ],
     "addedDate": "2026-02-28"
   },
   {
@@ -479,7 +551,9 @@
     "trope": "Dislike to Love",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/cherrisnake.jpg"
+    ],
     "addedDate": "2026-02-28"
   },
   {
@@ -496,7 +570,9 @@
     "trope": "NA",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/seraphimstar.jpg"
+    ],
     "addedDate": "2026-02-28"
   },
   {
@@ -513,7 +589,9 @@
     "trope": "NA",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/morningdust.jpg"
+    ],
     "addedDate": "2026-02-28"
   },
   {
@@ -530,7 +608,9 @@
     "trope": "Mutual Pining",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/schmico.jpg"
+    ],
     "addedDate": "2026-02-28"
   },
   {
@@ -547,7 +627,9 @@
     "trope": "NA",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/merder.jpg"
+    ],
     "addedDate": "2026-02-28"
   },
   {
@@ -564,7 +646,9 @@
     "trope": "Friends to Lovers",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/fiddauthor.jpg"
+    ],
     "addedDate": "2026-02-28"
   },
   {
@@ -581,7 +665,9 @@
     "trope": "Unrequited to Requited Love",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/candipper.jpg"
+    ],
     "addedDate": "2026-02-28"
   },
   {
@@ -598,7 +684,9 @@
     "trope": "Mutual Pining",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/mutt_and_spouse.jpg"
+    ],
     "addedDate": "2026-02-26"
   },
   {
@@ -615,7 +703,9 @@
     "trope": "Found Family",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/ineffable_parents.jpg"
+    ],
     "addedDate": "2026-02-26"
   },
   {
@@ -632,7 +722,9 @@
     "trope": "Friends to Lovers",
     "notes": "",
     "favorite": true,
-    "image": null,
+    "image": [
+      "images/aziracrow.jpg"
+    ],
     "addedDate": "2026-02-26"
   },
   {
@@ -649,7 +741,9 @@
     "trope": "Mutual Pining",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/wornicalex.jpg"
+    ],
     "addedDate": "2026-02-26"
   },
   {
@@ -666,7 +760,9 @@
     "trope": "Found Family",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/wornick.jpg"
+    ],
     "addedDate": "2026-02-26"
   },
   {
@@ -683,7 +779,9 @@
     "trope": "Mutual Pining",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/sizumi.jpg"
+    ],
     "addedDate": "2026-02-26"
   },
   {
@@ -700,7 +798,9 @@
     "trope": "Friends to Lovers",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/royai.jpg"
+    ],
     "addedDate": "2026-02-26"
   },
   {
@@ -717,7 +817,9 @@
     "trope": "Friends to Lovers",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/kylemei.jpg"
+    ],
     "addedDate": "2026-02-26"
   },
   {
@@ -734,7 +836,9 @@
     "trope": "Mutual Pining",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/edwin.jpg"
+    ],
     "addedDate": "2026-02-26"
   },
   {
@@ -751,7 +855,9 @@
     "trope": "Found Family",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/elric_brothers.jpg"
+    ],
     "addedDate": "2026-02-26"
   },
   {
@@ -768,7 +874,9 @@
     "trope": "Dislike to Love",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/timtoot.jpg"
+    ],
     "addedDate": "2026-02-26"
   },
   {
@@ -785,7 +893,9 @@
     "trope": "Unrequited to Requited Love",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/jorgairy.jpg"
+    ],
     "addedDate": "2026-02-26"
   },
   {
@@ -802,7 +912,9 @@
     "trope": "Mutual Pining",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/coswan.jpg"
+    ],
     "addedDate": "2026-02-26"
   },
   {
@@ -819,7 +931,9 @@
     "trope": "Mutual Pining",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/anti_coswan.jpg"
+    ],
     "addedDate": "2026-02-26"
   },
   {
@@ -836,7 +950,9 @@
     "trope": "Friends to Lovers",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/fridanny.jpg"
+    ],
     "addedDate": "2026-02-26"
   },
   {
@@ -853,7 +969,9 @@
     "trope": "Unrequited Love",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/choen.jpg"
+    ],
     "addedDate": "2026-02-25"
   },
   {
@@ -870,7 +988,9 @@
     "trope": "Friends to Lovers",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/risukawa.jpg"
+    ],
     "addedDate": "2026-02-25"
   },
   {
@@ -887,7 +1007,9 @@
     "trope": "Friends to Lovers",
     "notes": " ☆ power couple yas.",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/shinoi.jpg"
+    ],
     "artist": "butter_milkies (ig)",
     "addedDate": "2026-03-25"
   },
@@ -905,7 +1027,9 @@
     "trope": "Friends to Lovers",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/nikaiman.jpg"
+    ],
     "addedDate": "2026-02-25"
   },
   {
@@ -922,7 +1046,9 @@
     "trope": "Dislike to Love",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/smithontas.jpg"
+    ],
     "addedDate": "2026-02-25"
   },
   {
@@ -939,7 +1065,9 @@
     "trope": "Dislike to Love",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/tianaveen.jpg"
+    ],
     "addedDate": "2026-02-25"
   },
   {
@@ -956,7 +1084,9 @@
     "trope": "Dislike to Love",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/mulang.jpg"
+    ],
     "addedDate": "2026-02-25"
   },
   {
@@ -973,7 +1103,9 @@
     "trope": "Unrequited to Requited Love",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/belleast.jpg"
+    ],
     "addedDate": "2026-02-25"
   },
   {
@@ -990,7 +1122,9 @@
     "trope": "Mutual Pining",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/kristanna.jpg"
+    ],
     "addedDate": "2026-02-25"
   },
   {
@@ -1007,7 +1141,9 @@
     "trope": "Mutual Pining",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/jelsa.jpg"
+    ],
     "addedDate": "2026-02-25"
   },
   {
@@ -1024,7 +1160,9 @@
     "trope": "Friends to Lovers",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/robstar.jpg"
+    ],
     "addedDate": "2026-02-25"
   },
   {
@@ -1041,7 +1179,9 @@
     "trope": "Dislike to Love",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/bbrae.jpg"
+    ],
     "addedDate": "2026-02-25"
   },
   {
@@ -1058,7 +1198,9 @@
     "trope": "Mutual Pining",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/wondertrev.jpg"
+    ],
     "addedDate": "2026-02-25"
   },
   {
@@ -1075,7 +1217,9 @@
     "trope": "Dislike to Love",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/cybee.jpg"
+    ],
     "addedDate": "2026-02-25"
   },
   {
@@ -1092,7 +1236,9 @@
     "trope": "Friends to Lovers",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/morcia.jpg"
+    ],
     "addedDate": "2026-02-25"
   },
   {
@@ -1109,7 +1255,9 @@
     "trope": "Unrequited Love",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/creepythinlove.jpg"
+    ],
     "addedDate": "2026-02-26"
   },
   {
@@ -1126,7 +1274,9 @@
     "trope": "Mutual Pining",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/caskett.jpg"
+    ],
     "addedDate": "2026-02-25"
   },
   {
@@ -1143,7 +1293,9 @@
     "trope": "Friends to Lovers",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/touyuki.jpg"
+    ],
     "addedDate": "2026-02-25"
   },
   {
@@ -1160,7 +1312,9 @@
     "trope": "NA",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/sakutomo.jpg"
+    ],
     "addedDate": "2026-02-26"
   },
   {
@@ -1177,7 +1331,9 @@
     "trope": "Mutual Pining (Oblivious)",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/sakusyao.jpg"
+    ],
     "addedDate": "2026-02-25"
   },
   {
@@ -1194,7 +1350,9 @@
     "trope": "NA",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/binkey.jpg"
+    ],
     "addedDate": "2026-02-26"
   },
   {
@@ -1211,7 +1369,9 @@
     "trope": "Dislike to Love",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/semperance.jpg"
+    ],
     "addedDate": "2026-02-25"
   },
   {
@@ -1228,7 +1388,9 @@
     "trope": "Rivals to Lovers",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/kiritetsu.jpg"
+    ],
     "addedDate": "2026-02-25"
   },
   {
@@ -1245,7 +1407,9 @@
     "trope": "Rivals to Lovers",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/bakudeku.jpg"
+    ],
     "addedDate": "2026-02-25"
   },
   {
@@ -1262,7 +1426,9 @@
     "trope": "Friends to Lovers",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/kamijirou.jpg"
+    ],
     "addedDate": "2026-02-25"
   },
   {
@@ -1279,7 +1445,9 @@
     "trope": "Friends to Lovers",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/todomomo.jpg"
+    ],
     "addedDate": "2026-02-25"
   },
   {
@@ -1296,7 +1464,9 @@
     "trope": "Friends to Lovers",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/fayi.jpg"
+    ],
     "addedDate": "2026-02-25"
   },
   {
@@ -1313,7 +1483,9 @@
     "trope": "Dislike to Love",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/boya.jpg"
+    ],
     "addedDate": "2026-02-26"
   },
   {
@@ -1330,7 +1502,9 @@
     "trope": "NA",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/bopal.jpg"
+    ],
     "addedDate": "2026-02-26"
   },
   {
@@ -1347,7 +1521,9 @@
     "trope": "NA",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/bofang.jpg"
+    ],
     "addedDate": "2026-02-26"
   },
   {
@@ -1364,7 +1540,9 @@
     "trope": "Unrequited to Requited Love",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/lomille.jpg"
+    ],
     "addedDate": "2026-02-25"
   },
   {
@@ -1381,7 +1559,9 @@
     "trope": "Mutual Pining",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/jendall.jpg"
+    ],
     "addedDate": "2026-02-25"
   },
   {
@@ -1398,7 +1578,9 @@
     "trope": "Mutual Pining",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/maknight.jpg"
+    ],
     "addedDate": "2026-02-26"
   },
   {
@@ -1415,7 +1597,9 @@
     "trope": "Friends to Lovers",
     "notes": " ☆ this still lives in my head, my local tarzan and jane story sob sob.",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/ejiwan.jpg"
+    ],
     "addedDate": "2026-02-25"
   },
   {
@@ -1432,7 +1616,9 @@
     "trope": "Friends to Lovers",
     "notes": " ☆ couldve been a nice representation of someone with special needs getting a relationship with the male lead (he was dang respectful and HE GETS IT, unfortunately the showrunners dont see past that vision).",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/yusmanis.jpg"
+    ],
     "addedDate": "2026-02-26"
   },
   {
@@ -1449,7 +1635,9 @@
     "trope": "Mutual Pining (Oblivious)",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/gwevin.jpg"
+    ],
     "addedDate": "2026-02-25"
   },
   {
@@ -1466,7 +1654,9 @@
     "trope": "Found Family",
     "notes": " ☆ adam and barbara proved to be the best parents that they could be to lydia.",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/the_maitlands_lydia.jpg"
+    ],
     "addedDate": "2026-02-26"
   },
   {
@@ -1483,7 +1673,9 @@
     "trope": "Friends to Lovers",
     "notes": " ☆ power couple for the win (the scene in the manga was iconic for me).",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/goya.jpg"
+    ],
     "addedDate": "2026-02-25"
   },
   {
@@ -1500,7 +1692,9 @@
     "trope": "Mutual Pining",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/legoharu.jpg"
+    ],
     "addedDate": "2026-02-25"
   },
   {
@@ -1517,7 +1711,9 @@
     "trope": "Friends to Lovers",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/jackgosi.jpg"
+    ],
     "addedDate": "2026-02-25"
   },
   {
@@ -1534,7 +1730,9 @@
     "trope": "Found Family",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/ibulouis.jpg"
+    ],
     "addedDate": "2026-02-26"
   },
   {
@@ -1551,7 +1749,9 @@
     "trope": "Found Family",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/goulego.jpg"
+    ],
     "addedDate": "2026-02-26"
   },
   {
@@ -1568,7 +1768,9 @@
     "trope": "Friends to Lovers",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/perwaine.jpg"
+    ],
     "addedDate": "2026-02-25"
   },
   {
@@ -1585,7 +1787,9 @@
     "trope": "Enemies to Lovers",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/merthur.jpg"
+    ],
     "addedDate": "2026-02-25"
   },
   {
@@ -1602,7 +1806,9 @@
     "trope": "Mutual Pining",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/gwencelot.jpg"
+    ],
     "addedDate": "2026-02-25"
   },
   {
@@ -1619,7 +1825,9 @@
     "trope": "Mutual Pining (Oblivious)",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/eruri.jpg"
+    ],
     "addedDate": "2026-02-25"
   },
   {
@@ -1636,7 +1844,9 @@
     "trope": "Mutual Pining",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/yumihisu.jpg"
+    ],
     "addedDate": "2026-02-25"
   },
   {
@@ -1653,7 +1863,9 @@
     "trope": "Mutual Pining",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/niccosasha.jpg"
+    ],
     "addedDate": "2026-02-25"
   },
   {
@@ -1670,7 +1882,9 @@
     "trope": "Mutual Pining",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/eremika.jpg"
+    ],
     "addedDate": "2026-02-25"
   },
   {
@@ -1687,7 +1901,9 @@
     "trope": "NA",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/relicity.jpg"
+    ],
     "addedDate": "2026-02-26"
   },
   {
@@ -1704,7 +1920,9 @@
     "trope": "Friends to Lovers",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/theonor.jpg"
+    ],
     "addedDate": "2026-02-25"
   },
   {
@@ -1721,7 +1939,9 @@
     "trope": "Mutual Pining",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/simonette.jpg"
+    ],
     "addedDate": "2026-02-25"
   },
   {
@@ -1738,7 +1958,9 @@
     "trope": "Rivals to Lovers",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/alvitanny.jpg"
+    ],
     "addedDate": "2026-02-25"
   },
   {
@@ -1755,7 +1977,9 @@
     "trope": "Enemies to Lovers",
     "notes": "",
     "favorite": true,
-    "image": null,
+    "image": [
+      "images/stanchez.jpg"
+    ],
     "addedDate": "2026-02-24"
   },
   {
@@ -1772,7 +1996,9 @@
     "trope": "Enemies to Lovers",
     "notes": "",
     "favorite": true,
-    "image": null,
+    "image": [
+      "images/stony.jpg"
+    ],
     "addedDate": "2026-02-25"
   },
   {
@@ -1789,7 +2015,9 @@
     "trope": "Enemies to Lovers",
     "notes": "",
     "favorite": false,
-    "image": null,
+    "image": [
+      "images/snirius.jpg"
+    ],
     "addedDate": "2026-02-25"
   }
 ]

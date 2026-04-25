@@ -9,6 +9,9 @@ let selectedFile = null;
 let selectedImageUrl = '';
 let currentFandomFilter = ''; // New variable for fandom filtering
 
+// Add this after your existing variable declarations
+const PLACEHOLDER_IMAGE = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400' viewBox='0 0 400 400'%3E%3Crect width='400' height='400' fill='%23f5f5f5'/%3E%3Ctext x='200' y='200' text-anchor='middle' dy='.3em' fill='%23999' font-family='Arial' font-size='20'%3E📷 No Image%3C/text%3E%3C/svg%3E";
+
 // DOM Elements
 const pairingsGrid = document.getElementById('pairings-grid');
 const searchInput = document.getElementById('search-input');
@@ -137,24 +140,39 @@ async function loadFromStorage() {
         }
     }
     
-    // Process images - check for images in the images folder
+    // Process images - set image path from ship name if no image exists
     pairings.forEach(p => {
-        // Only process if image already exists in the data
-        if (p.image && p.image !== null) {
-            if (typeof p.image === 'string') {
-                p.image = [p.image];
-            } else if (!Array.isArray(p.image)) {
-                p.image = [];
-            }
-        } else {
-            // Leave as null if no image in pairings.json
-            p.image = null;
+        // Only set auto image if there's NO existing image
+        const hasNoImage = !p.image || 
+                          p.image === null || 
+                          (Array.isArray(p.image) && p.image.length === 0) ||
+                          (typeof p.image === 'string' && p.image === '');
+        
+        if (hasNoImage) {
+            // Generate image path from ship name (lowercase)
+            const imagePath = `images/${sanitizeFileName(p.name)}.jpg`;
+            p.image = [imagePath];
+            console.log(`Auto-assigned image for "${p.name}": ${imagePath}`);
+        } else if (typeof p.image === 'string' && p.image !== 'null' && p.image !== '') {
+            p.image = [p.image];
+        } else if (!Array.isArray(p.image)) {
+            p.image = [];
         }
     });
     
     renderFandoms();
     renderPairings(getFilteredPairings());
     updateStats();
+}
+
+// Helper function to sanitize filename (add this function if not present)
+function sanitizeFileName(name) {
+    if (!name) return 'default';
+    return name
+        .toLowerCase()
+        .replace(/[^a-z0-9]/g, '_')
+        .replace(/_+/g, '_')
+        .replace(/^_|_$/g, '');
 }
 
 // Save to localStorage (Temporary save)
@@ -245,9 +263,15 @@ function createShipCard(ship) {
                 break;
             }
         }
-    } else if (ship.image && typeof ship.image === 'string' && ship.image !== 'null') {
+    } else if (ship.image && typeof ship.image === 'string' && ship.image !== 'null' && ship.image !== '') {
         imageUrl = ship.image;
     }
+
+// If still no image URL, generate from ship name
+if (!imageUrl) {
+    imageUrl = `images/${sanitizeFileName(ship.name)}.jpg`;
+    console.log(`Using auto-generated image path for ${ship.name}: ${imageUrl}`);
+}
     
     let cardHTML = '';
     
@@ -269,7 +293,7 @@ if (imageUrl && imageUrl !== 'null' && imageUrl.trim() !== '') {
                     <i class="fas fa-trash"></i>
                 </button>
             </div>
-            <img src="${imageUrl}" alt="${ship.name}" class="ship-image">
+            <img src="${imageUrl}" alt="${ship.name}" class="ship-image" onerror="this.style.display='none'">
             <div class="image-overlay">
                 <h3 class="pairing-name">${escapeHtml(ship.name)}</h3>
                 <p class="pairing-characters">${escapeHtml(ship.characters)}</p>
@@ -656,8 +680,12 @@ function openShipLightbox(ship) {
     const popImage = document.getElementById('pop-image');
     if (imageUrl) {
         popImage.src = imageUrl;
+        popImage.onerror = function() {
+            this.onerror = null;
+            this.src = PLACEHOLDER_IMAGE;
+        };
     } else {
-        popImage.src = 'https://via.placeholder.com/400x400?text=No+Image+Available';
+        popImage.src = PLACEHOLDER_IMAGE;
     }
     
     document.getElementById('pop-notes').innerText = ship.notes || "No notes added yet.";

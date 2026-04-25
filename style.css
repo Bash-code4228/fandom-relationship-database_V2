@@ -676,4 +676,57 @@ body {
     .controls {
         flex-direction: column;
     }
+
+    /* Completely hide broken image icons */
+    .ship-image {
+        display: block;
+    }
+    
+    .ship-image[src=""] {
+        display: none;
+    }
+    
+    .ship-image:error {
+        display: none;
+    }
+
+    /* Hide broken image icons globally */
+    .ship-image {
+        display: block;
+    }
+    
+    .ship-image[src=""] {
+        display: none;
+    }
+    
+    /* Hide images that fail to load */
+    .ship-image:error {
+        opacity: 0;
+        min-height: 200px;
+        background: #f5f5f5;
+    }
+    
+    /* Alternative method using object */
+    .ship-image::after {
+        display: none;
+    }
+    
+    /* Add a nice fallback background for missing images */
+    .image-container:has(img:error) {
+        background: linear-gradient(135deg, #f5f5f5 0%, #e0e0e0 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .image-container:has(img:error)::before {
+        content: "📷";
+        font-size: 48px;
+        color: #ccc;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+    }
 }

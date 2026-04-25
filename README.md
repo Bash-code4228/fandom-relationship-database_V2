@@ -1,1 +1,1 @@
-# fandom-relationship-database_collab
+# fandom-relationship-database
