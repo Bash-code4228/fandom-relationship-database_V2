@@ -61,8 +61,8 @@ function renderFandoms() {
             fandoms.forEach(f => {
                 if (f) allFandoms.add(f);
             });
+            fandomList.innerHTML = html;
         }
-    });
     
     const sortedFandoms = [...allFandoms].sort();
     
