@@ -465,15 +465,45 @@ body {
     padding: 20px;
 }
 
-.modal-content {
-    background: white;
-    border-radius: 20px;
-    max-width: 650px; 
+/* AFTER (Add these to the bottom of style.css) */
+.modal-body-horizontal {
+    display: flex;
+    flex-direction: row; /* Forces side-by-side */
+    min-height: 450px;
+}
+
+.pop-image-container {
+    flex: 1; /* Left 50% */
+    background: #000;
+}
+
+.pop-image-container img {
     width: 100%;
-    max-height: 85vh; 
-    overflow-y: auto;
+    height: 100%;
+    object-fit: cover; /* Keeps image from stretching */
+}
+
+.pop-info-container {
+    flex: 1; /* Right 50% */
+    padding: 40px;
+    background: white;
     position: relative;
-    animation: modalSlideIn 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.close-lightbox-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+/* Mobile fix so it stays usable on phones */
+@media (max-width: 768px) {
+    .modal-body-horizontal {
+        flex-direction: column; /* Stacks vertically on small screens */
+    }
 }
 
 /* Sticky Modal Header */
