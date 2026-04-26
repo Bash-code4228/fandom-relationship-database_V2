@@ -9,7 +9,30 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body><div id="ship-lightbox" class="modal">
+    <div class="modal-content horizontal-curved">
+        <div class="pop-header-blue">
+            <h2 id="pop-name">Ship Name</h2>
+            <button class="action-btn close-lightbox-btn" onclick="closeShipLightbox()">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        
+        <div class="modal-body-horizontal">
+            <div class="pop-image-container">
+                <img id="pop-image" src="">
+            </div>
+
+            <div class="pop-info-container">
+                <p id="pop-chars"></p>
+                <div id="pop-tags"></div>
+                <div class="pop-notes-wrapper">
+                    <p id="pop-notes"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
     <div class="container">
         <div class="header">
             <h1><i class="fas fa-heart"></i> Fandom Relationships Tracker</h1>
@@ -288,16 +311,20 @@
     </div>
 
     <div id="ship-lightbox" class="modal">
-        <div class="modal-content" style="max-width: 900px;"> <div class="modal-body-horizontal">
+        <div class="modal-content horizontal-curved">
+            <div class="pop-header-blue">
+                <h2 id="pop-name">Ship Name</h2>
+                <button class="action-btn close-lightbox-btn" onclick="closeShipLightbox()">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            
+            <div class="modal-body-horizontal">
                 <div class="pop-image-container">
                     <img id="pop-image" src="">
                 </div>
     
                 <div class="pop-info-container">
-                    <button class="action-btn close-lightbox-btn" onclick="closeShipLightbox()">
-                        <i class="fas fa-times"></i>
-                    </button>
-                    <h2 id="pop-name">Ship Name</h2>
                     <p id="pop-chars"></p>
                     <div id="pop-tags"></div>
                     <div class="pop-notes-wrapper">
