@@ -759,4 +759,49 @@ body {
         transform: translate(-50%, -50%);
         z-index: 1;
     }
+    
+/*Lightbox/
+.full-width-header-layout {
+    max-width: 900px;
+    width: 95%;
+    background: white;
+    border-radius: 25px; /* Curved edges */
+    overflow: hidden;    /* Keeps the blue header inside the curves */
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+
+.pop-header-blue {
+    background-color: #0992C2; /* Your theme blue */
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 4px solid #D4AF37; /* Your theme gold */
+}
+
+.pop-header-blue h2 {
+    color: #FFFDF0; /* Off-white text */
+    margin: 0;
+    font-size: 1.8rem;
+    text-align: left; /* Shipname aligned to the left */
+}
+
+.pop-header-blue .close-lightbox-btn {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    position: static; /* Resets the old positioning */
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-body-horizontal {
+    display: flex;
+    flex-direction: row;
+    min-height: 400px;
 }
