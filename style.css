@@ -805,3 +805,39 @@ body {
     flex-direction: row;
     min-height: 400px;
 }
+
+.full-width-header-layout {
+    max-width: 900px;
+    width: 95%;
+    background: white;
+    
+    /* 1. This creates the curve */
+    border-radius: 30px !important; 
+    
+    /* 2. This is the "Magic Line" that makes the curves visible 
+       by clipping the blue header's sharp corners */
+    overflow: hidden !important; 
+    
+    display: flex;
+    flex-direction: column;
+    border: none;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.3);
+}
+
+.pop-header-blue {
+    background-color: #0992C2;
+    padding: 25px 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* This gold line sits between the header and the image/info */
+    border-bottom: 4px solid #D4AF37; 
+}
+
+.pop-header-blue h2 {
+    color: #FFFDF0;
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: left;
+}
