@@ -404,8 +404,14 @@ function showToast(message, type = 'info') {
     setTimeout(() => toast.remove(), 3000);
 }
 
-function openAddModal() { if (addModal) addModal.style.display = 'flex'; }
-function closeAddModal() { if (addModal) addModal.style.display = 'none'; resetForm(); }
+function openAddModal() {
+    if (addModal) addModal.style.display = 'flex'; 
+    document.body.style.overflow = 'hidden';
+}
+function closeAddModal() { 
+    if (addModal) addModal.style.display = 'none'; resetForm();
+    document.body.style.overflow = '';
+}
 
 function openEditModal(id) {
     const pairing = pairings.find(p => p.id === id);
