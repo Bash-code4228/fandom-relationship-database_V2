@@ -463,12 +463,12 @@ body {
 /* AFTER (Add these to the bottom of style.css) */
 .modal-body-horizontal {
     display: flex;
-    flex-direction: row; /* Forces side-by-side */
-    min-height: 450px;
+    flex-direction: row;
+    min-height: 500px;
 }
 
 .pop-image-container {
-    flex: 1; /* Left 50% */
+    flex: 1.1; 
     background: #000;
 }
 
@@ -480,12 +480,14 @@ body {
 
 .pop-info-container {
     flex: 1;
-    padding: 25px;
+    padding: 35px;
     gap: 18px;
     display: flex;
     flex-direction: column;
     align-items: flex-start; 
     justify-content: flex-start;
+    overflow-y: auto;
+    max-height: 70vh;
 }
 
 #pop-chars {
@@ -824,7 +826,7 @@ body {
 }
 
 .full-width-header-layout {
-    max-width: 900px; /* Limits the display lightbox from being too large */
+    max-width: 1200px; 
     width: 95%;
     background: white;
     border-radius: 30px !important; 
@@ -833,12 +835,12 @@ body {
     flex-direction: column;
     border: none;
     box-shadow: 0 20px 50px rgba(0,0,0,0.3);
-    padding: 0; /* Ensures the blue header stretches edge to edge */
+    padding: 0; 
 }
 
 .pop-header-blue {
     background-color: #043f8d;
-    padding: 25px 35px;
+    padding: 28px 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -848,7 +850,7 @@ body {
 .pop-header-blue h2 {
     color: #FFFDF0;
     margin: 0;
-    font-size: 2rem;
+    font-size: 2.4rem;
     font-weight: 700;
     text-align: left;
 }
@@ -868,5 +870,5 @@ body {
 .modal-body-horizontal {
     display: flex;
     flex-direction: row;
-    min-height: 400px;
+    min-height: 500px;
 }
